@@ -1,4 +1,9 @@
-                                    LINUX FILE SYSTEM
+                                   
+                                   
+                                   
+                                   LINUX FILE SYSTEM
+                                   
+                                   
     A Linux file System is a structured collection of files on a disk drive or a partition.A partition is a segment of 
 memory and contains some specific data.
     The general-purpose computer system needs to store data systematically so that we can easily acesss the files 
