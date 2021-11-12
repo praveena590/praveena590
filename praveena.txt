@@ -42,3 +42,9 @@ should have a file extention. If we use the graphical file manages, it symbolize
      .using echo command
     . using printf command
     .using a different text editor like vim,nano,vi
+    
+    
+    
+    
+    
+    
