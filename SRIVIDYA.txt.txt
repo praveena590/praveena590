@@ -1,0 +1,130 @@
+      PROGRAM--1
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ vi srividya.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ cat srividya.sh
+#!/bin/bash
+#timetable----print out a multiplication table
+for i in 1 2 3
+ do
+   for j in 1 2 3
+    do
+        value='praveena'
+        echo -n "$value "
+     done
+      echo
+     done
+
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ ./srividya.sh
+praveena praveena praveena
+praveena praveena praveena
+praveena praveena praveena
+    
+
+
+            PROGRAM  2
+   
+$ vi srividya.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ cat srividya.sh
+#!/bin/bash
+files= 'ls'
+for i in $files
+   do
+        echo -n "$i"
+        grep $i $i
+   done
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ ./srividya.sh
+'Docker Desktop.lnk'               'Microsoft Office Word 2007.lnk'   vidya.sh
+'Microsoft Edge.lnk'                desktop.ini
+'Microsoft Office Excel 2007.lnk'   srividya.sh
+
+           PROGRAM 3
+     
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ vi pravi.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ cat pravi.sh
+#!/bin/bash
+for i in *;do
+   echo -n "$i"
+   grep $i $i
+  done
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ ./pravi.sh
+Docker Desktop.lnkgrep: Desktop.lnk: No such file or directory
+grep: Docker: No such file or directory
+grep: Desktop.lnk: No such file or directory
+Microsoft Edge.lnkgrep: Edge.lnk: No such file or directory
+grep: Microsoft: No such file or directory
+grep: Edge.lnk: No such file or directory
+Microsoft Office Excel 2007.lnkgrep: Office: No such file or directory
+grep: Excel: No such file or directory
+grep: 2007.lnk: No such file or directory
+grep: Microsoft: No such file or directory
+grep: Office: No such file or directory
+grep: Excel: No such file or directory
+grep: 2007.lnk: No such file or directory
+Microsoft Office Word 2007.lnkgrep: Office: No such file or directory
+grep: Word: No such file or directory
+grep: 2007.lnk: No such file or directory
+grep: Microsoft: No such file or directory
+grep: Office: No such file or directory
+grep: Word: No such file or directory
+grep: 2007.lnk: No such file or directory
+desktop.inipravi.shsrividya.shvidya.sh
+
+          PRAGRAM--4
+  
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ vi praveena.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ cat praveena.sh
+if grep "UNIX" myfile >/dev/null
+   then
+           echo UNIX occurs in myfile
+         else
+           echo NO!
+           echo UNIX does not occur in myfile
+fi
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ ./praveena.sh
+grep: myfile: No such file or directory
+NO!
+UNIX does not occur in myfile
+
+       PROGRAM 5
+  
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ vi reddy.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ cat reddy.sh
+#!/bin/bash
+if grep "UNIX" myfiles >/dev/null
+then
+        echo "Unix occurs in file"
+     elif grep "DOS" myfiles >/dev/null
+       then
+          echo "Unix does not occur,but DOS does"
+  else
+          echo "no body is there"
+fi
+
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~/Desktop (master)
+$ ./reddy.sh
+grep: myfiles: No such file or directory
+grep: myfiles: No such file or directory
+no body is there
+

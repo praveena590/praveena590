@@ -1,0 +1,63 @@
+       PROGRAM 6
+   
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ vi krishna.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ cat krishna.sh
+#!/bin/bash
+smallest=1000
+for i in 5 4 8 2 9;do
+        if test $i -lt $smallest;then
+         smallest=$i
+        fi
+done
+echo $smallest
+
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ ./krishna.sh
+2
+
+
+         PROGRAM  7
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ vi vyshu.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ cat vyshu.sh
+#!/bin/bash
+if test -z $REMOTEHOST
+then
+ :
+else
+        DISPLAY="$REMOTEHOST:0"
+        export DISPLAY
+fi
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ ./vyshu.sh
+
+
+              PROGRAM   8
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ vi chandana.sh
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ cat chandana.sh
+#!/bin/bash
+i=1
+sum=0
+while [ $i -le 100 ];do
+        sum='55'
+        i='expr$i+$i'
+        i='expr $i + 1'
+done
+echo the sum is $sum
+
+LENOVO@DESKTOP-CT4TU6J MINGW64 ~ (master)
+$ ./chandana.sh
+./chandana.sh: line 4: [: too many arguments
+the sum is 55
